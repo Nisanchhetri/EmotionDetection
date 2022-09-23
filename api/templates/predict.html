@@ -1,0 +1,9 @@
+<title>Emotion Detection Project's Prediction</title>
+<h1>Predicted Output</h1>
+
+<p><b>Prediction:</b>  {{ pred }}, with <b>confidence:</b> {{ conf }}</p>
+<br/>
+<ul>
+    <li><a href="{{ url_for('get_create_page') }}">Start Prediction</a>
+    <li><a href="{{ url_for('fetch_predictions_records') }}">See Stored Prediction</a>
+</ul>

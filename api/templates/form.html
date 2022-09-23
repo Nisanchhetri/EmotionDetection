@@ -1,0 +1,11 @@
+<!doctype html>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<title>Get Input Sentence</title>
+
+<h1>Enter Sentence for prediction</h1>
+<form method="post">
+    <label for="sentence">Enter a sentence</label><br/>
+    <input type="text" name="sentence" id="sentence" required>
+    <input type="submit" value="Predict">
+
+</form>
